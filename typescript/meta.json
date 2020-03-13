@@ -1,4 +1,5 @@
 {
+  "kind": "template",
   "name": "typescript",
   "extend": ["default"]
 }
