@@ -17,9 +17,19 @@ tbd
 - [Install](#install)
 - [Usage](#usage)
 - [Development](#development)
+- [Team](#team)
+- [License](#license)
 
 ## Install
 
 ## Usage
 
 ## Development
+
+## Team
+
+- Thomas Pöhlmann ((@perryrh0dan))[https://github.com/perryrh0dan]
+
+## License
+
+(MIT)[https://github.com/perryrh0dan/charon/blob/master/license.md]
