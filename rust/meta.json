@@ -1,5 +1,5 @@
 {
   "kind": "template",
-  "name": "Rust",
-  "extend": ["Default"]
+  "name": "rust",
+  "extend": ["default"]
 }

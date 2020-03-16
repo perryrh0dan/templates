@@ -1,5 +1,5 @@
 {
   "kind": "template",
-  "name": "Golang",
-  "extend": ["Default"]
+  "name": "golang",
+  "extend": ["default"]
 }
