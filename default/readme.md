@@ -28,7 +28,7 @@ tbd
 
 ## Team
 
-- Thomas Pöhlmann [@perryrh0dan](https://github.com/perryrh0dan)
+- Thomas Pöhlmann [(@perryrh0dan)](https://github.com/perryrh0dan)
 
 ## License
 
