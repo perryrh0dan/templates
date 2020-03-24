@@ -5,6 +5,10 @@
   "description": "",
   "repository": "{{repository}}",
   "license": "MIT",
+  "scripts": {
+    "build": "gulp buildTest",
+    "dev": "gulp dev"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.6.0",
     "@commitlint/config-conventional": "^8.2.0",
