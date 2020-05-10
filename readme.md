@@ -43,6 +43,8 @@ List of filenames to exclude from the template.
 Placeholders can be used in each file of your template. During the initlialization the placeholders are replaced by the actual values. At the moment following placeholders are supported:
 - {{name}}
 - {{repository}} 
+- {{username}} // fetched from global git config
+- {{email}} // fetched from global git config
 
 ## Development
 
