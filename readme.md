@@ -27,6 +27,10 @@
     "name": "",
     "extend": [""],
     "exclude": [""],
+    "scripts": {
+      "before_install": "",
+      "after_install": ""
+    }
 }
 ```
 
@@ -38,6 +42,10 @@ Templates can extend other templates. Add the name of the templates you want to 
 
 List of filenames to exclude from the template.
 
+### Scripts
+
+Scipts are executed before or after the installation of the template.
+
 ### Placeholders
 
 Placeholders can be used in each file of your template. During the initlialization the placeholders are replaced by the actual values. At the moment following placeholders are supported:
@@ -48,6 +56,10 @@ Placeholders can be used in each file of your template. During the initlializati
 
 ## Development
 
-## Licence
-
 ## Team
+
+- Thomas Pöhlmann [(@perryrh0dan)](https://github.com/perryrh0dan)
+
+## License
+
+[MIT](https://github.com/perryrh0dan/charon/blob/master/license.md)

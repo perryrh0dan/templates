@@ -1,5 +1,9 @@
 {
   "kind": "template",
   "name": "typescript",
-  "extend": ["default"]
+  "extend": ["default"],
+  "scripts": {
+    "preinit": "",
+    "postinit": ""
+  }
 }
