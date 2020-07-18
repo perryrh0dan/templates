@@ -1,0 +1,10 @@
+{
+    "kind": "template",
+    "name": "react",
+    "extend": ["default"],
+    "scripts": {
+      "preinit": "",
+      "postinit": "npx create-react-app {{name}} --template typescript"
+    }
+  }
+  

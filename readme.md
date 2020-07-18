@@ -62,4 +62,4 @@ Placeholders can be used in each file of your template. During the initlializati
 
 ## License
 
-[MIT](https://github.com/perryrh0dan/charon/blob/master/license.md)
+[MIT](https://github.com/perryrh0dan/tmpo/blob/master/license.md)
