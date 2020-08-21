@@ -3,8 +3,8 @@
     "name": "react",
     "extend": ["default"],
     "scripts": {
-      "before_install": "",
-      "after_install": "npx create-react-app {{name}} --template typescript"
+      "before_install": "npx create-react-app {{name}} --template typescript && cp -n -r ./{{name}}/. . && rm -r ./{{name}}",
+      "after_install": ""
     }
   }
   
