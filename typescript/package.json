@@ -6,9 +6,13 @@
   "repository": "{{repository}}",
   "license": "MIT",
   "scripts": {
-    "build": "gulp buildTest",
+    "build": "gulp buildTest && gulp buildMeta",
     "build:prod": "gulp build",
-    "dev": "gulp dev"
+    "dev": "gulp dev",
+    "test": "npm run lint && npm run unit",
+    "lint": "eslint ./src/**/*.ts",
+    "unit": "jest --runInBand",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.6.0",
