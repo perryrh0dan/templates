@@ -1,0 +1,11 @@
+language: go
+go:
+  - master
+go_import_path: github.com/{{name}}
+jobs:
+  include:
+    - stage: test
+      script: bash scripts/test.sh
+    - stage: deploy
+      if: tag IS present
+      script: bash scripts/deploy.sh
