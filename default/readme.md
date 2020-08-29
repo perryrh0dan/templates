@@ -28,7 +28,7 @@ tbd
 
 ## Team
 
-- Thomas Pöhlmann [(@{{username}})](https://github.com/{{username}})
+- {{username}} [(@{{username}})](https://github.com/{{username}})
 
 ## License
 
