@@ -30,7 +30,8 @@
     "scripts": {
       "before_install": "",
       "after_install": ""
-    }
+    },
+    "renderer": [""]
 }
 ```
 
@@ -53,6 +54,12 @@ Placeholders can be used in each file of your template. During the initlializati
 - {{repository}} 
 - {{username}} // fetched from global git config
 - {{email}} // fetched from global git config
+
+### Renderer
+
+#### Exclude
+
+List of filenames to exclude from rendering process.
 
 ## Development
 

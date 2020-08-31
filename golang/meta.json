@@ -1,5 +1,8 @@
 {
   "kind": "template",
   "name": "golang",
-  "extend": ["default"]
+  "extend": ["default"],
+  "renderer": {
+    "exclude": [".goreleaser.yml"]
+  }
 }
