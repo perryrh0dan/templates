@@ -24,12 +24,18 @@
 
 ``` json
 {
+    "kind": "template",
     "name": "",
+    "version": "",
+    "description": "",
     "extend": [""],
     "exclude": [""],
     "scripts": {
       "before_install": "",
       "after_install": ""
+    },
+    "renderer": {
+      "exclude": [""] 
     }
 }
 ```
