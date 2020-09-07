@@ -1,0 +1,15 @@
+{
+  "kind": "template",
+  "name": "wasm",
+  "version": "1.0.0",
+  "description": "WebAssembly Template with Rust",
+  "scripts": {
+    "before_install": null,
+    "after_install": null
+  },
+  "extend": ["rust"],
+  "exclude": null,
+  "renderer": {
+    "exclude": null
+  }
+}

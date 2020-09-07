@@ -13,6 +13,7 @@ crate-type = ["cdylib"]
 wasm-bindgen = { version = "0.2.67", features = ["serde-serialize"] }
 # for complex data types to/from jsValue
 serde = { version = "1.0.115", features = ["derive"] }
+num = "0.3.0"
 
 [profile.release]
 debug = true
