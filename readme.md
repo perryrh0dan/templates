@@ -55,7 +55,7 @@ Scipts are executed before or after the installation of the template.
 
 ### Placeholders
 
-Placeholders can be used in each file of your template. During the initlialization the placeholders are replaced by the actual values. At the moment following placeholders are supported:
+Placeholders can be used in each file, filename and folder name of your template. During the initlialization the placeholders are replaced by the actual values. At the moment following placeholders are supported:
 - {{name}}
 - {{repository}} 
 - {{username}} // fetched from global git config
