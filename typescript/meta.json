@@ -3,7 +3,7 @@
   "name": "typescript",
   "extend": ["default"],
   "scripts": {
-    "preinit": "",
-    "postinit": ""
+    "before_install": "",
+    "after_install": "npm install"
   }
 }
