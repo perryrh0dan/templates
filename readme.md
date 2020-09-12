@@ -35,7 +35,8 @@
       "after_install": ""
     },
     "renderer": {
-      "exclude": [""] 
+      "exclude": [""], 
+      "values": [""]
     }
 }
 ```
@@ -65,6 +66,15 @@ Placeholders can be used in each file of your template. During the initlializati
 #### Exclude
 
 List of filenames to exclude from rendering process.
+
+#### Values
+
+For all values in this array the user will be asked to provide additional informations. 
+This values can than be used like the default placeholders. With following syntax:
+
+```
+{{values.name}}
+```
 
 ## Development
 
