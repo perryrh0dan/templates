@@ -37,7 +37,7 @@ const compileTest = () => {
 };
 
 const watch = () => {
-  gulp.watch(['src/**/*.ts', 'cli.ts', 'i18n/**/*.json'], buildTest);
+  gulp.watch(['src/**/*.ts', 'index.ts'], buildTest);
 };
 
 const delDist = () => {
