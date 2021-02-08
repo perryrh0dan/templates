@@ -61,6 +61,19 @@ Placeholders can be used in each file, filename and folder name of your template
 - {{username}} // fetched from global git config
 - {{email}} // fetched from global git config
 
+### Transformation Methods
+
+Transformation methods can be used to transform input variables. Just add the method before the actual value in the placeholder {{camelcase name}} or {{constantcase name}}
+
+Available methods:
+- camelcase
+- constantcase
+- kebabcase
+- lowercaser
+- pascalcase
+- snakecase 
+- uppercase
+
 ### Renderer
 
 #### Exclude
