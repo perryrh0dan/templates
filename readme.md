@@ -28,6 +28,7 @@
     "name": "",
     "version": "",
     "description": "",
+    "visible": true,
     "extend": [""],
     "exclude": [""],
     "scripts": {
