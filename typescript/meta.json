@@ -4,7 +4,7 @@
   "extend": ["default"],
   "scripts": {
     "before_install": "",
-    "after_install": "npm install && npx github-init-cli login {{values.github-username}} {{values.github-token}} && npx github-init-cli create {{name}} "
+    "after_install": "npm install"
   },
   "renderer": {
     "values" : ["github-username", "github-token"]
