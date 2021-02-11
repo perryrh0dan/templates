@@ -7,6 +7,6 @@
     "after_install": "npm install"
   },
   "renderer": {
-    "values" : ["github-username", "github-token"]
+    "values" : []
   }
 }
