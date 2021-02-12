@@ -25,8 +25,8 @@
 ``` json
 {
     "kind": "template",
-    "name": "",
-    "version": "",
+    "name": "typescript",
+    "version": "1.0.0",
     "description": "",
     "visible": true,
     "extend": [""],
@@ -37,7 +37,12 @@
     },
     "renderer": {
       "exclude": [""], 
-      "values": [""]
+      "values": [{
+        "key": "repositoryName",
+        "label": "repository name",
+        "default": "tpoe-{{name}}",
+        "required": false
+      }]
     }
 }
 ```
@@ -87,7 +92,7 @@ For all values in this array the user will be asked to provide additional inform
 This values can than be used like the default placeholders. With following syntax:
 
 ```
-{{values.name}}
+{{values.<key>}}
 ```
 
 ## Development
