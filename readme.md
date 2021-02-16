@@ -22,28 +22,31 @@
 
 ### Format
 
-``` json
+```json
 {
-    "kind": "template",
-    "name": "typescript",
-    "version": "1.0.0",
-    "description": "",
-    "visible": true,
-    "extend": [""],
+  "kind": "template",
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "visible": true,
+  "extend": [""],
+  "exclude": [""],
+  "scripts": {
+    "before_install": "",
+    "after_install": ""
+  },
+  "renderer": {
     "exclude": [""],
-    "scripts": {
-      "before_install": "",
-      "after_install": ""
-    },
-    "renderer": {
-      "exclude": [""], 
-      "values": [{
+    "values": [
+      {
         "key": "repositoryName",
         "label": "repository name",
         "default": "tpoe-{{name}}",
         "required": false
-      }]
-    }
+      }
+    ]
+  },
+  "note": "cd {{name}}\ncode ."
 }
 ```
 
@@ -62,8 +65,9 @@ Scipts are executed before or after the installation of the template.
 ### Placeholders
 
 Placeholders can be used in each file, filename and folder name of your template. During the initlialization the placeholders are replaced by the actual values. At the moment following placeholders are supported:
+
 - {{name}}
-- {{repository}} 
+- {{repository}}
 - {{username}} // fetched from global git config
 - {{email}} // fetched from global git config
 
@@ -72,6 +76,7 @@ Placeholders can be used in each file, filename and folder name of your template
 Transformation methods can be used to transform input variables. Just add the method before the actual value in the placeholder {{camelcase name}} or {{constantcase name}}
 
 Available methods:
+
 - camelcase: camelCase
 - constantcase: CONSTANT_CASE
 - kebabcase: kebab-case
@@ -88,12 +93,16 @@ List of filenames to exclude from rendering process.
 
 #### Values
 
-For all values in this array the user will be asked to provide additional informations. 
+For all values in this array the user will be asked to provide additional informations.
 This values can than be used like the default placeholders. With following syntax:
 
 ```
 {{values.<key>}}
 ```
+
+### Note
+
+Note that is displayed after initializing a new workspace.
 
 ## Development
 
